@@ -1,0 +1,65 @@
+.login div {
+    text-align: center;
+    font-family: lato;
+}
+
+h1 {
+    margin: 5% 20%;
+    color: rgb(219, 219, 219);
+    text-shadow: 5px 5px 5px black;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.login h3 {
+    color: rgb(173, 173, 173);
+}
+
+.login div:first-child {
+    margin-bottom: 50px;
+}
+
+.login input {
+    background: none;
+    margin: 3px;
+    padding: 3px;
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+}
+
+.login input:hover {
+    background-color: rgba(255, 255, 255, 0.178);
+
+}
+
+.login input::placeholder {
+    color: rgb(173, 173, 173);
+}
+
+.login input:focus {
+    background-color: rgba(240, 248, 255, 0.589);
+    color: black;
+    scale: 120%;
+    margin: 10px;
+}
+
+.login input:focus::placeholder {
+    color: black;
+}
+
+.login button {
+    background: none;
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    border: solid black 1px;
+    color: rgb(173, 173, 173);
+    border-radius: 2px;
+    margin-top: 20px;
+}
+
+.login button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}

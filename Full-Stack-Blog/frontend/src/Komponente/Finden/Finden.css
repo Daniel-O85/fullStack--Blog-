@@ -1,0 +1,103 @@
+.finden ul {
+    font-family: lato;
+    margin: 2% 10%;
+    padding: 0px 10px 20px 10px;
+    border: inset indigo 5px;
+    width: 40%;
+    background-color: rgba(0, 0, 0, 0.205);
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+}
+
+.finden div:first-child {
+    margin: 1% 10%;
+}
+
+.finden input {
+    background: rgba(48, 48, 48, 0.952);
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+    margin: 5px;
+    font-size: 15px;
+    padding: 3px;
+    color: rgb(219, 219, 219);
+
+}
+
+.finden input::placeholder {
+    color: rgb(173, 173, 173);
+}
+
+.finden input:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}
+
+.finden input:hover::placeholder {
+    color: black;
+}
+
+.finden input:focus {
+    background-color: rgba(240, 248, 255, 0.589);
+    color: black;
+    scale: 120%;
+    margin: 10px;
+}
+
+.finden button {
+    background: rgba(99, 99, 99, 0.39);
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    border: solid black 1px;
+    color: rgb(173, 173, 173);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.finden button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}
+
+.finden ul {
+    color: rgb(219, 219, 219);
+    text-shadow: 2px 2px 2px black;
+    list-style-type: none;
+}
+
+.finden h3 {
+    margin-left: 10%;
+    color: rgb(219, 219, 219);
+    text-shadow: 2px 2px 2px black;
+}
+
+.delete-friend {
+    width: fit-content;
+    margin-left: 10%;
+    text-align: center;
+    padding: 2%;
+    position: fixed center;
+    box-shadow: 5px 5px 5px black;
+    border: solid red 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: red;
+    font-size: 25px;
+}
+
+.add-friend {
+    width: fit-content;
+    text-align: center;
+    margin-left: 10%;
+    padding: 2%;
+    position: fixed center;
+    box-shadow: 5px 5px 5px black;
+    border: solid green 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: green;
+    font-size: 25px;
+}

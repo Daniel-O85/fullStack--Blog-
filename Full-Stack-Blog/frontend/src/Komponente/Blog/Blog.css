@@ -1,0 +1,142 @@
+.blog {
+    margin: 2% 0% 2% 10%;
+    padding: 0px 10px 20px 10px;
+    border: inset indigo 5px;
+    width: 40%;
+    color: rgb(219, 219, 219);
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.26);
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+    font-family: lato;
+}
+
+.blog button {
+    background: rgba(99, 99, 99, 0.39);
+    box-shadow: 5px 5px 5px black;
+    border: none;
+    border: solid black 1px;
+    color: rgb(173, 173, 173);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.blog button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}
+
+.blog textarea,
+.blog input {
+    background: rgba(99, 99, 99, 0.39);
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    color: rgb(173, 173, 173);
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.blog textarea:focus,
+.blog input:focus {
+    background-color: rgba(240, 248, 255, 0.589);
+    color: black;
+    scale: 120%;
+    margin: 2% 6%;
+}
+
+.blog input:hover,
+.blog textarea:hover {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}
+
+.blog textarea:focus::placeholder,
+.blog input:focus::placeholder {
+    color: black;
+}
+
+.blog textarea:hover::placeholder,
+.blog input:hover::placeholder {
+    color: black;
+}
+
+#blog-title:focus,
+#blog-text:focus {
+    margin: 2% 5%;
+}
+
+.delete-blog {
+    width: fit-content;
+    margin-left: 10%;
+    text-align: center;
+    padding: 2%;
+    position: fixed;
+    top: 20%;
+    left: 45%;
+    box-shadow: 5px 5px 5px black;
+    border: solid red 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: red;
+    font-size: 25px;
+}
+
+.edit {
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 50% 50%;
+}
+
+.edit-box {
+    width: 100%;
+}
+
+.newTitle {
+    width: 50%
+}
+
+.newText {
+    width: 50%
+}
+
+.btn-cancel {
+    width: 20%;
+}
+
+.btn-save {
+    width: 20%;
+}
+
+
+
+.anzeigen {
+    transition: 0.5s;
+    overflow: auto;
+    opacity: 1;
+    height: auto;
+}
+
+.verstecken {
+    transition: 0.5s;
+    overflow: hidden;
+    opacity: 0;
+    height: 1px;
+}
+
+.update-blog {
+    width: fit-content;
+    margin-left: 10%;
+    text-align: center;
+    padding: 2%;
+    position: fixed;
+    top: 20%;
+    left: 45%;
+    box-shadow: 5px 5px 5px black;
+    border: solid green 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.705);
+    color: green;
+    font-size: 25px;
+}

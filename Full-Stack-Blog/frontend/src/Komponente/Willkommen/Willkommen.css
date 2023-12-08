@@ -1,0 +1,88 @@
+.willkommen {
+    padding: 20px;
+    font-family: lato;
+}
+
+.willkommen h3:first-child {
+    color: rgb(219, 219, 219);
+    text-shadow: 2px 2px 2px black;
+
+
+}
+
+.willkommen div:first-child {
+    margin-left: 10%;
+    padding: 0px 10px 20px 10px;
+    border: inset indigo 5px;
+    width: 20%;
+    background-color: rgba(0, 0, 0, 0.205);
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+}
+
+.willkommen div:last-child {
+    margin-left: 10%;
+    padding: 0px 10px 20px 10px;
+    border: inset indigo 5px;
+    width: 40%;
+    color: rgb(219, 219, 219);
+    text-shadow: 2px 2px 2px black;
+    background-color: rgba(0, 0, 0, 0.26);
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+}
+
+.willkommen div:first-child input,
+.willkommen div:first-child button {
+    background: rgba(0, 0, 0, 0.137);
+    margin: 3px;
+    padding: 4px;
+    box-shadow: 2px 2px 8px rgb(65, 64, 64);
+    border: solid black 1px;
+    border-radius: 2px;
+    color: rgb(219, 219, 219);
+}
+
+.willkommen div:first-child input:hover {
+    background-color: rgba(255, 255, 255, 0.178);
+}
+
+.willkommen div:first-child input::placeholder {
+    color: rgb(156, 156, 156);
+}
+
+.willkommen div:first-child input:focus {
+    background-color: rgba(240, 248, 255, 0.589);
+    color: black;
+    scale: 120%;
+    margin: 2% 6%;
+}
+
+.willkommen div:first-child input:focus::placeholder {
+    color: black;
+}
+
+.willkommen div:first-child button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.61);
+    color: black;
+}
+
+.willkommen hr {
+    margin: 30px 0px;
+}
+
+.willkommenMeldung,
+.logout {
+    text-align: center;
+    padding: 2%;
+    position: fixed center;
+    box-shadow: 5px 5px 5px black;
+    border: solid black 1px;
+    border-radius: 2px;
+    background-color: rgba(0, 0, 0, 0.404);
+    color: rgb(219, 219, 219);
+    font-size: 25px;
+}
